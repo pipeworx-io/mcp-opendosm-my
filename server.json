@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/opendosm-my",
+  "title": "Opendosm My",
+  "description": "data.gov.my / OpenDOSM (Department of Statistics Malaysia) — official Malaysian open-data API.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/opendosm-my",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-opendosm-my",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/opendosm-my/mcp"
+    }
+  ]
+}
